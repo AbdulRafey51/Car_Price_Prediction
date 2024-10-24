@@ -71,7 +71,7 @@ pipe.fit(X_train, y_train)
 y_pred = pipe.predict(X_test)
 print('R2 score:', r2_score(y_test, y_pred))
 print('MAE:', mean_absolute_error(y_test, y_pred))
-2. Decision Tree Regressor
+#2. Decision Tree Regressor
 A Decision Tree splits the data based on conditions like 
 “Is the car newer than 2015?” or “Is the fuel type petrol?” It creates a tree-like structure to make predictions.
 
@@ -85,7 +85,7 @@ pipe.fit(X_train, y_train)
 y_pred = pipe.predict(X_test)
 print('R2 score:', r2_score(y_test, y_pred))
 print('MAE:', mean_absolute_error(y_test, y_pred))
-3. Random Forest Regressor
+#3. Random Forest Regressor
 Random Forest is like a group of decision trees working together. 
 It creates multiple trees and averages their predictions to get a more accurate result.
 
@@ -99,7 +99,7 @@ pipe.fit(X_train, y_train)
 y_pred = pipe.predict(X_test)
 print('R2 score:', r2_score(y_test, y_pred))
 print('MAE:', mean_absolute_error(y_test, y_pred))
-4. XGBoost Regressor
+#4. XGBoost Regressor
 XGBoost is one of the most powerful models for prediction tasks. It uses a method called gradient boosting, 
 which improves accuracy by focusing on the areas where previous models made mistakes.
 
@@ -120,7 +120,7 @@ R² (R-Squared): This tells us how well the model fits the data. The closer to 1
 MAE (Mean Absolute Error): This tells us how far off our predictions are from the actual selling prices.
 After testing, the Random Forest and XGBoost models performed best, giving the most accurate predictions.
 
-Conclusion
+#Conclusion
 By the end of the project, I was able to predict the price of any car in the dataset with a good level of accuracy. With machine learning, it’s possible to make smart decisions when buying or selling cars, simply by analyzing some key data points.
 
 What’s Next?
